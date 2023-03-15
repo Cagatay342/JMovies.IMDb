@@ -42,8 +42,8 @@
     <ProjectReference Include="..\JMovies.IMDb.Entities\JMovies.IMDb.Entities.csproj" />
   </ItemGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+  <!--<Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="if $(ConfigurationName) == Debug  cd ../ &amp;&amp; doxygen Doxyfile" />
-  </Target>
+  </Target>-->
 
 </Project>
